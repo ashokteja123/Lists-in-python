@@ -1,0 +1,99 @@
+#Lists in python
+#to store more valuables,it is mutable (we can make changes)
+
+#creation of list
+List = []
+print("empty list:")
+print(List)
+
+#creating a list of numbers
+list = [12 34 65]
+print(/n list of numbers)
+print(list)
+
+#creating list of strings
+list = ["kaki" "ashok" "teja"]
+print(/n items)
+print(list[1])
+print(list[2])
+
+#creating a multidimesnsional list
+List = [['leet' , 'code'] ,['leet']
+print("\n multi dimensional list")
+print(list)
+
+#creating mixed type of values
+List = [16 ,05, 2003, 'ashok' ,'teja']
+print("\n List with mixed values")
+print(List)
+
+
+#knowing size of list
+List1 = []
+print(len(List1))
+List2 = ['ashok' ,'is', 'good mortal']
+print(len(List2))
+
+#List methods in python
+#apppend() and adding
+#use for adding elements and appending elements in a list
+#it is used to add elements to the last position of the list 
+List = ['data' ,'structures' ,786]
+List.append(375)
+print(List)
+
+#insert method
+List = ['mathematics' , 'chemistry' ,2003 ,1998]
+List.insert(3,2022)
+print(List)
+
+#extend method
+#adds contents to list2 to the end of  list1
+List1 = [2 ,4 ,5 ]
+List2 = [3,5,6,8,3]
+List1.extend(List2)
+print(List1)
+#adds contents to list1 to the end of  list2
+List2.extend(List1)
+
+#sum#calculate sum of all the elements
+List = [2003 ,3994, 2939, 9342]
+print(sum(List)
+
+#count#calculate total occurence of given elements
+List = [1 ,1 ,1 ,1 ,3 4,5 7,6 ,4 1, 6,1]
+print(List.count(1))
+
+#length#calculates the length of list
+List = [1,2,3,4,5,6,7,9,9]
+print(len(List))
+
+#index()#it returns the index
+List = [1,2,3,4,6,9,3,8,9]
+print(List(index(2))
+
+#min()#calculates the minimum of all the elements
+List = [2.3, 3.65 ,3.56 ,7.74]
+print(min(List))
+print(max(List))
+
+#sort()&reverse() functions
+List = [1.22, 2.98 ,3.09 ,5.97]
+List.sort
+print(List)
+
+List = [1.22, 2.98 ,3.09 ,5.97]
+List.sort(reverse=true)
+print(List)
+
+#deletion of list of elements#pop()
+List = [1.22, 2.98 ,3.09 ,5.97]
+print(List.pop(3))
+#del()#List name and index
+List = [1.22, 2.98 ,3.09 ,5.97]
+del List[0]
+print(List)
+#remove#list name and element
+List = [1.22, 2.98 ,3.09 ,5.97]
+List.remove(4)
+print(List)
